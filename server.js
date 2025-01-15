@@ -3,9 +3,9 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const path = require("path");
-const { initializeStrategies } = require("./strategies");
-const { setupLogging } = require("./utils/logger");
-const { fetchMarketData } = require("./services/marketData");
+const { initializeStrategies } = require("./src/strategies");
+const { setupLogging } = require("./src/utils/logger");
+const { fetchMarketData } = require("./src/services/marketData");
 const fs = require("fs").promises;
 
 const app = express();
@@ -107,6 +107,6 @@ server.listen(PORT, async () => {
   logger.info(`Server running on port ${PORT}`);
   
   // Import and start trading system only after server is fully initialized
-  const { startTradingSystem } = require('./automatedTrading');
+  const { startTradingSystem } = require('./src/automatedTrading');
   // startTradingSystem();
 });
