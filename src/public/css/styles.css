@@ -1,0 +1,33 @@
+/* Add these new styles to your existing CSS */
+.current-strategy {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.strategy-button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.strategy-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+.strategy-button:hover {
+    background-color: #f0f0f0;
+}
+
+.strategy-button.active:hover {
+    background-color: #0056b3;
+}

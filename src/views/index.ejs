@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading Strategies Dashboard</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: #f5f5f5;
+        height: 100vh;
+      }
+
+      .dashboard-container {
+        display: grid;
+        grid-template-columns: 250px 1fr 400px;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      /* Left Sidebar */
+      .strategies-sidebar {
+        background: white;
+        border-right: 1px solid #e0e0e0;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .strategies-sidebar h2 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+      }
+
+      .strategy-button {
+        width: 100%;
+        padding: 12px 15px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 6px;
+        background: #f8f9fa;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .strategy-button:hover {
+        background: #e9ecef;
+      }
+
+      .strategy-button.active {
+        background: #e3f2fd;
+        color: #1976d2;
+      }
+
+      /* Main Content */
+      .main-content {
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .header {
+        background: white;
+        padding: 15px 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .chart-container {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+        height: calc(100vh - 200px);
+        position: relative;
+      }
+
+      /* Zoom Controls */
+      .chart-controls {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+        display: flex;
+        gap: 5px;
+      }
+
+      .zoom-button {
+        padding: 5px 10px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+      }
+
+      .zoom-button:hover {
+        background: #f5f5f5;
+      }
+
+      /* Right Sidebar */
+      .signals-sidebar {
+        background: white;
+        border-left: 1px solid #e0e0e0;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      /* Current Price Styles */
+      .current-price-container {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .current-price-label {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+      }
+
+      .current-price-value {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #1976d2;
+      }
+
+      .signals-container,
+      .indicators-container {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      .signals-container h3,
+      .indicators-container h3 {
+        color: #333;
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+      }
+
+      .signal {
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+      }
+
+      .signal.buy {
+        background: #e8f5e9;
+        color: #2e7d32;
+        border-left: 4px solid #2e7d32;
+      }
+
+      .signal.sell {
+        background: #fbe9e7;
+        color: #d32f2f;
+        border-left: 4px solid #d32f2f;
+      }
+
+      .signal.exit {
+        background: #fff3e0;
+        color: #ef6c00;
+        border-left: 4px solid #ef6c00;
+      }
+
+      .signal.wait {
+        background: #f5f5f5;
+        color: #616161;
+        border-left: 4px solid #616161;
+      }
+
+      .signal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+
+      .signal-time {
+        font-size: 0.8rem;
+        opacity: 0.8;
+      }
+
+      .signal-reason {
+        margin: 5px 0;
+        font-size: 0.85rem;
+      }
+
+      .signal-conditions {
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        font-size: 0.8rem;
+      }
+
+      .signal-condition {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3px;
+      }
+
+      .condition-label {
+        opacity: 0.8;
+      }
+
+      /* Updated indicators styles */
+      .indicators-container {
+        background: white;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+      }
+
+      .indicator-item {
+        padding: 10px;
+        border-bottom: 1px solid #f0f0f0;
+      }
+
+      .indicator-item:last-child {
+        border-bottom: none;
+      }
+
+      .indicator-value {
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+
+      .indicator-value.positive {
+        background: #e8f5e9;
+        color: #2e7d32;
+      }
+
+      .indicator-value.negative {
+        background: #fbe9e7;
+        color: #d32f2f;
+      }
+
+      .indicator-value.neutral {
+        background: #f5f5f5;
+        color: #616161;
+      }
+
+      /* Controls Container */
+      .controls-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .timeframe-selector {
+        display: flex;
+        gap: 10px;
+      }
+
+      .timeframe-button {
+        padding: 8px 16px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        background: white;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .timeframe-button:hover {
+        background: #f5f5f5;
+      }
+
+      .timeframe-button.active {
+        background: #1976d2;
+        color: white;
+        border-color: #1976d2;
+      }
+
+      #currentStrategy {
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      .chart-scroll-container {
+        overflow-x: auto;
+        width: 100%;
+      }
+
+      .history-container {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        max-height: 60vh;
+        overflow-y: auto;
+      }
+
+      .history-entry {
+        padding: 10px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        background: white;
+        font-size: 0.9rem;
+        border-left: 4px solid #1976d2;
+      }
+
+      .history-timestamp {
+        color: #666;
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+      }
+
+      .history-price {
+        font-weight: 500;
+        margin-bottom: 4px;
+      }
+
+      .history-signals {
+        font-size: 0.8rem;
+      }
+
+       /* New styles for history section */
+       .history-section {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .history-tabs {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 10px;
+      }
+
+      .history-tab {
+        padding: 8px 16px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: 0.9rem;
+        color: #666;
+        border-radius: 4px;
+      }
+
+      .history-tab.active {
+        background: #1976d2;
+        color: white;
+      }
+
+      .history-content {
+        max-height: 400px;
+        overflow-y: auto;
+      }
+
+      .history-entry {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+
+      .history-timestamp {
+        font-size: 0.8rem;
+        color: #666;
+        margin-bottom: 5px;
+      }
+
+      .history-price-info {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+      }
+
+      .price-item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .price-label {
+        color: #666;
+        font-size: 0.8rem;
+      }
+
+      .price-value {
+        font-weight: 500;
+      }
+
+      .history-signals {
+        border-top: 1px solid #e0e0e0;
+        padding-top: 10px;
+        margin-top: 10px;
+      }
+
+      .history-signal {
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        font-size: 0.85rem;
+      }
+
+      .history-signal.buy {
+        background: #e8f5e9;
+        color: #2e7d32;
+      }
+
+      .history-signal.sell {
+        background: #fbe9e7;
+        color: #d32f2f;
+      }
+
+      .history-signal.wait {
+        background: #f5f5f5;
+        color: #616161;
+      }
+
+      .history-signal.exit {
+        background: #fff3e0;
+        color: #ef6c00;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Left Sidebar -->
+      <div class="strategies-sidebar">
+        <h2>Trading Strategies</h2>
+        <% strategies.forEach(strategy => { %>
+        <button
+          onclick="selectStrategy(<%= strategy.id %>, '<%= strategy.name %>')"
+          id="strategy-<%= strategy.id %>"
+          class="strategy-button"
+        >
+          <%= strategy.name %>
+        </button>
+        <% }); %>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="header">
+          <h1>Trading Dashboard</h1>
+          <div id="currentStrategy">No strategy selected</div>
+        </div>
+
+        <div class="controls-container">
+          <div class="timeframe-selector">
+            <button
+              class="timeframe-button"
+              data-timeframe="1"
+              data-times="minute"
+            >
+              1m
+            </button>
+            <button
+              class="timeframe-button"
+              data-timeframe="5"
+              data-times="minute"
+            >
+              5m
+            </button>
+            <button
+              class="timeframe-button"
+              data-timeframe="15"
+              data-times="minute"
+            >
+              15m
+            </button>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <div class="chart-controls">
+            <button class="zoom-button" onclick="resetZoom()">
+              Reset Zoom
+            </button>
+            <button class="zoom-button" onclick="toggleScroll()">
+              Toggle Scroll
+            </button>
+          </div>
+          <canvas id="priceChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="signals-sidebar">
+        <div class="current-price-container">
+          <div class="current-price-label">Current Price (XAUUSD)</div>
+          <div class="current-price-value" id="currentPrice">---.--</div>
+        </div>
+
+        <div class="signals-container">
+          <h3>Latest Signals</h3>
+          <div id="signalsList"></div>
+        </div>
+
+        <div class="indicators-container">
+          <h3>Technical Indicators</h3>
+          <div id="indicatorsList"></div>
+        </div>
+
+        <div class="history-section">
+          <h3>Historical Data</h3>
+          <div class="history-tabs">
+            <button class="history-tab active" data-timeframe="1minute">1m</button>
+            <button class="history-tab" data-timeframe="5minute">5m</button>
+            <button class="history-tab" data-timeframe="15minute">15m</button>
+          </div>
+          <div class="history-content" id="historyContent">
+            <!-- Historical entries will be populated here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const socket = io();
+      let historyData = [];
+      let selectedStrategy = null;
+      let selectedTimeframe = "1";
+      let selectedTimes = "minute";
+      let priceChart = null;
+      let scrollEnabled = true;
+
+      // Initialize timeframe buttons
+      document.querySelectorAll(".timeframe-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          document
+            .querySelectorAll(".timeframe-button")
+            .forEach((btn) => btn.classList.remove("active"));
+          button.classList.add("active");
+
+          selectedTimeframe = button.dataset.timeframe;
+          selectedTimes = button.dataset.times;
+
+          if (selectedStrategy) {
+            requestAnalysis();
+          }
+        });
+      });
+
+      // Set initial active timeframe
+      document.querySelector('[data-timeframe="1"]').classList.add("active");
+
+      function selectStrategy(strategyId, strategyName) {
+        selectedStrategy = strategyId;
+        document.getElementById(
+          "currentStrategy"
+        ).textContent = `Selected: ${strategyName}`;
+
+        document.querySelectorAll(".strategy-button").forEach((btn) => {
+          btn.classList.remove("active");
+        });
+        document
+          .getElementById(`strategy-${strategyId}`)
+          .classList.add("active");
+
+        document.getElementById("signalsList").innerHTML = "";
+        document.getElementById("indicatorsList").innerHTML = "";
+
+        requestAnalysis();
+      }
+
+      function requestAnalysis() {
+        socket.emit("requestAnalysis", {
+          strategyId: selectedStrategy,
+          timeframe: selectedTimeframe,
+          selectedTimes: selectedTimes,
+        });
+      }
+
+      function formatTimestamp(epoch) {
+        const date = new Date(epoch);
+        const options = {
+          timeZone: "Asia/Kolkata",
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: false,
+        };
+        return new Intl.DateTimeFormat("en-IN", options).format(date) + " IST";
+      }
+
+      function toggleScroll() {
+        scrollEnabled = !scrollEnabled;
+        priceChart.options.plugins.zoom.pan.enabled = scrollEnabled;
+        priceChart.update();
+      }
+
+      function resetZoom() {
+        if (priceChart) {
+          priceChart.resetZoom();
+        }
+      }
+
+      function updateChart(data) {
+        // Update current price
+        if (data.close && data.close.length > 0) {
+          const lastPrice = data.close[data.close.length - 1];
+          document.getElementById("currentPrice").textContent =
+            lastPrice.toFixed(2);
+        }
+
+        const formattedLabels = data.timestamp.map((t) => formatTimestamp(t));
+
+        if (!priceChart) {
+          const ctx = document.getElementById("priceChart").getContext("2d");
+          priceChart = new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: formattedLabels,
+              datasets: [
+                {
+                  label: "Price",
+                  data: data.close,
+                  borderColor: "rgb(25, 118, 210)",
+                  borderWidth: 1.5,
+                  pointRadius: 0,
+                  tension: 0.1,
+                },
+              ],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              animation: false,
+              plugins: {
+                legend: {
+                  position: "top",
+                },
+                tooltip: {
+                  mode: "index",
+                  intersect: false,
+                },
+                zoom: {
+                  pan: {
+                    enabled: true,
+                    mode: "x",
+                  },
+                  zoom: {
+                    wheel: {
+                      enabled: true,
+                    },
+                    pinch: {
+                      enabled: true,
+                    },
+                    mode: "x",
+                  },
+                },
+              },
+              scales: {
+                y: {
+                  beginAtZero: false,
+                  grid: {
+                    color: "rgba(0,0,0,0.05)",
+                  },
+                  ticks: {
+                    callback: function (value) {
+                      return value.toFixed(2);
+                    },
+                  },
+                },
+                x: {
+                  ticks: {
+                    maxRotation: 45,
+                    minRotation: 45,
+                    maxTicksLimit: 10,
+                  },
+                  grid: {
+                    display: false,
+                  },
+                },
+              },
+              interaction: {
+                mode: "nearest",
+                axis: "x",
+                intersect: false,
+              },
+            },
+          });
+        } else {
+          priceChart.data.labels = formattedLabels;
+          priceChart.data.datasets[0].data = data.close;
+          priceChart.update("none"); // Use 'none' to disable animation on update
+        }
+      }
+
+
+      function updateSignals(signals) {
+      if (!selectedStrategy) return;
+
+      const signalsList = document.getElementById("signalsList");
+      const signal = signals[selectedStrategy];
+
+      if (signal) {
+        const signalElement = document.createElement("div");
+        const signalType = signal.signal.type?.toLowerCase() || signal.signal.toLowerCase();
+        signalElement.className = `signal ${signalType}`;
+
+        const timestamp = formatTimestamp(Date.now());
+        
+        let signalHtml = `
+          <div class="signal-header">
+            <span>${signal.signal.type || signal.signal}</span>
+            <span class="signal-time">${timestamp}</span>
+          </div>
+        `;
+
+        if (signal.signal.reason) {
+          signalHtml += `
+            <div class="signal-reason">${signal.signal.reason}</div>
+          `;
+        }
+
+        if (signal.signal.conditions) {
+          signalHtml += `
+            <div class="signal-conditions">
+          `;
+          
+          for (const [key, value] of Object.entries(signal.signal.conditions)) {
+            signalHtml += `
+              <div class="signal-condition">
+                <span class="condition-label">${key}:</span>
+                <span>${typeof value === 'number' ? value.toFixed(2) : value}</span>
+              </div>
+            `;
+          }
+          
+          signalHtml += `</div>`;
+        }
+
+        signalElement.innerHTML = signalHtml;
+        signalsList.insertBefore(signalElement, signalsList.firstChild);
+
+        // Keep only the last 10 signals
+        while (signalsList.children.length > 10) {
+          signalsList.removeChild(signalsList.lastChild);
+        }
+      }
+    }
+
+    function updateIndicators(signals) {
+      if (!selectedStrategy) return;
+
+      const indicatorsList = document.getElementById("indicatorsList");
+      const signal = signals[selectedStrategy];
+
+      if (signal && signal.indicators) {
+        indicatorsList.innerHTML = Object.entries(signal.indicators)
+          .map(([key, value]) => {
+            let displayValue;
+            let valueClass = 'neutral';
+
+            if (typeof value === 'number') {
+              displayValue = value.toFixed(2);
+              if (key.toLowerCase().includes('rsi')) {
+                valueClass = value > 70 ? 'negative' : value < 30 ? 'positive' : 'neutral';
+              } else if (key.toLowerCase().includes('strength')) {
+                valueClass = value > 0 ? 'positive' : value < 0 ? 'negative' : 'neutral';
+              }
+            } else if (typeof value === 'string') {
+              displayValue = value;
+              if (value.toLowerCase().includes('up') || value.toLowerCase().includes('bull')) {
+                valueClass = 'positive';
+              } else if (value.toLowerCase().includes('down') || value.toLowerCase().includes('bear')) {
+                valueClass = 'negative';
+              }
+            } else if (value === null) {
+              displayValue = 'N/A';
+            } else {
+              displayValue = JSON.stringify(value);
+            }
+
+            return `
+              <div class="indicator-item">
+                <span class="indicator-label">${key}</span>
+                <span class="indicator-value ${valueClass}">${displayValue}</span>
+              </div>
+            `;
+          })
+          .join("");
+      }
+    }
+    
+      // Initialize chart zoom status
+      let lastZoomStatus = {
+        scale: 1,
+        translation: { x: 0, y: 0 },
+      };
+
+      // Function to save zoom status
+      function saveZoomStatus() {
+        if (priceChart) {
+          lastZoomStatus = {
+            scale: priceChart.getZoomLevel(),
+            translation: priceChart.getTranslation(),
+          };
+        }
+      }
+
+      // Function to restore zoom status
+      function restoreZoomStatus() {
+        if (priceChart && lastZoomStatus) {
+          priceChart.zoomScale(lastZoomStatus.scale);
+          priceChart.translate(lastZoomStatus.translation);
+          priceChart.update("none");
+        }
+      }
+
+       // Add these new functions for history handling
+    async function fetchHistory() {
+      try {
+        const response = await fetch('/api/history');
+        const history = await response.json();
+        return history;
+      } catch (error) {
+        console.error('Error fetching history:', error);
+        return [];
+      }
+    }
+
+    function updateHistoryView(timeframe) {
+      fetchHistory().then(history => {
+        const historyContent = document.getElementById('historyContent');
+        historyContent.innerHTML = '';
+
+        const filteredHistory = history.filter(entry => entry.timeframe === timeframe);
+        
+        filteredHistory.forEach(entry => {
+          const historyEntry = document.createElement('div');
+          historyEntry.className = 'history-entry';
+
+          const timestamp = formatTimestamp(entry.timestamp);
+          
+          historyEntry.innerHTML = `
+            <div class="history-timestamp">${timestamp}</div>
+            <div class="history-price-info">
+              <div class="price-item">
+                <span class="price-label">Open</span>
+                <span class="price-value">${entry.data.open.toFixed(2)}</span>
+              </div>
+              <div class="price-item">
+                <span class="price-label">High</span>
+                <span class="price-value">${entry.data.high.toFixed(2)}</span>
+              </div>
+              <div class="price-item">
+                <span class="price-label">Low</span>
+                <span class="price-value">${entry.data.low.toFixed(2)}</span>
+              </div>
+              <div class="price-item">
+                <span class="price-label">Close</span>
+                <span class="price-value">${entry.data.close.toFixed(2)}</span>
+              </div>
+            </div>
+            <div class="history-signals">
+              ${Object.entries(entry.signals)
+                .map(([strategyId, data]) => {
+                  if (!data.signal) return '';
+                  const signalType = typeof data.signal === 'string' ? data.signal : data.signal.type;
+                  const signalReason = typeof data.signal === 'string' ? '' : data.signal.reason || '';
+                  return `
+                    <div class="history-signal ${signalType.toLowerCase()}">
+                      Strategy ${strategyId}: ${signalType}${signalReason ? ` - ${signalReason}` : ''}
+                    </div>
+                  `;
+                })
+                .join('')}
+            </div>
+          `;
+
+          historyContent.appendChild(historyEntry);
+        });
+      });
+    }
+
+    // Initialize history tabs
+    document.querySelectorAll('.history-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.history-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        updateHistoryView(tab.dataset.timeframe);
+      });
+    });
+
+    // Initial history load
+    updateHistoryView('1minute');
+
+          // Update history when new data comes in
+          socket.on("analysisResult", ({ data, signals }) => {
+      // Previous analysisResult handling
+      updateChart(data);
+      updateSignals(signals);
+      updateIndicators(signals);
+      
+      // Update history view for current timeframe
+      const activeTab = document.querySelector('.history-tab.active');
+      if (activeTab) {
+        updateHistoryView(activeTab.dataset.timeframe);
+      }
+    });
+
+      socket.on("connect", () => {
+        console.log("Connected to server");
+        if (selectedStrategy) {
+          requestAnalysis();
+        }
+      });
+
+      socket.on("connect_error", (error) => {
+        console.error("Connection error:", error);
+      });
+
+    </script>
+  </body>
+</html>
