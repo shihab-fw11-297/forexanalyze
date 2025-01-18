@@ -119,7 +119,7 @@ function startTradingSystem() {
   ensureHistoryFile()
     .then(() => {
       // Schedule to run exactly every 3 minutes
-      cronJob = cron.schedule('*/3 * * * *', async () => {
+      cronJob = cron.schedule('* * * * *', async () => {
         await processTimeframes();
       }, {
         scheduled: true,

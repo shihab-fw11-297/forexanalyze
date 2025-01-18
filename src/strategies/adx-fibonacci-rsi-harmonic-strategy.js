@@ -1,6 +1,6 @@
 const { ADX, RSI, MACD } = require('technicalindicators');
 
-class Strategy16 {
+class AdxFibonacciRsiHarmonicStrategy {
   async analyze(data) {
     const { high, low, close } = data;
     
@@ -20,15 +20,15 @@ class Strategy16 {
     
     // Calculate MACD
     const macd = MACD.calculate({
-      fastPeriod: 12,
-      slowPeriod: 26,
-      signalPeriod: 9,
+      fastPeriod: 8,
+      slowPeriod: 21,
+      signalPeriod: 5,
       values: close
     });
     
     // Calculate Fibonacci levels
-    const recentHigh = Math.max(...high.slice(-20));
-    const recentLow = Math.min(...low.slice(-20));
+    const recentHigh = Math.max(...high.slice(-50));
+    const recentLow = Math.min(...low.slice(-50));
     const fibLevels = this.calculateFibonacciLevels(recentHigh, recentLow);
     
     // Get current and previous values
@@ -137,4 +137,4 @@ class Strategy16 {
   }
 }
 
-module.exports = { Strategy16 };
+module.exports = { AdxFibonacciRsiHarmonicStrategy };

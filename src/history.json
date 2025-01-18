@@ -1,1 +1,6875 @@
-[]
+[
+  {
+    "timestamp": 1737181992084,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 43.22,
+            "emaDiff": "-0.93",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema20": 2708.3893038144856,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182002041,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Exit indicators met: RSI neutral or MACD signal cross",
+          "conditions": {
+            "rsiValue": 47.51,
+            "macdCross": "Bullish"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema20": 2702.441184981386,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182017970,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 39.27,
+            "emaDiff": "-2.07",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema20": 2704.497497296606,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182045735,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 43.22,
+            "emaDiff": "-0.93",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema20": 2708.3893038144856,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182052035,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Exit indicators met: RSI neutral or MACD signal cross",
+          "conditions": {
+            "rsiValue": 47.51,
+            "macdCross": "Bullish"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema20": 2702.441184981386,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182057495,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 39.27,
+            "emaDiff": "-2.07",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema20": 2704.497497296606,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182108462,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 43.22,
+            "emaDiff": "-0.93",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema20": 2708.3893038144856,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182116768,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Exit indicators met: RSI neutral or MACD signal cross",
+          "conditions": {
+            "rsiValue": 47.51,
+            "macdCross": "Bullish"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema20": 2702.441184981386,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182127143,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 39.27,
+            "emaDiff": "-2.07",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema20": 2704.497497296606,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182350082,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 41.78,
+            "emaDiff": "-0.62",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.3010078279362,
+          "ema20": 2707.9187891746096,
+          "rsi": 41.78,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182360805,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 58.71,
+            "emaDiff": "0.22",
+            "macdHist": "0.34"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.5132827689094,
+          "ema20": 2702.2941458751193,
+          "rsi": 58.71,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182367570,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 40.89,
+            "emaDiff": "-0.37",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.488142600957,
+          "ema20": 2702.854243869502,
+          "rsi": 40.89,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182405886,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 41.78,
+            "emaDiff": "-0.62",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.3010078279362,
+          "ema20": 2707.9187891746096,
+          "rsi": 41.78,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182412075,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 58.71,
+            "emaDiff": "0.22",
+            "macdHist": "0.34"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.5132827689094,
+          "ema20": 2702.2941458751193,
+          "rsi": 58.71,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182417510,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 40.89,
+            "emaDiff": "-0.37",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.488142600957,
+          "ema20": 2702.854243869502,
+          "rsi": 40.89,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182473453,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 41.78,
+            "emaDiff": "-0.62",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.3010078279362,
+          "ema20": 2707.9187891746096,
+          "rsi": 41.78,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182485216,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 58.71,
+            "emaDiff": "0.22",
+            "macdHist": "0.34"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.5132827689094,
+          "ema20": 2702.2941458751193,
+          "rsi": 58.71,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182490785,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 40.89,
+            "emaDiff": "-0.37",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.488142600957,
+          "ema20": 2702.854243869502,
+          "rsi": 40.89,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182530093,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 41.78,
+            "emaDiff": "-0.62",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.3010078279362,
+          "ema20": 2707.9187891746096,
+          "rsi": 41.78,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182540426,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 58.71,
+            "emaDiff": "0.22",
+            "macdHist": "0.34"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.5132827689094,
+          "ema20": 2702.2941458751193,
+          "rsi": 58.71,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182554088,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 40.89,
+            "emaDiff": "-0.37",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.488142600957,
+          "ema20": 2702.854243869502,
+          "rsi": 40.89,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182587568,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 41.78,
+            "emaDiff": "-0.62",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.3010078279362,
+          "ema20": 2707.9187891746096,
+          "rsi": 41.78,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182595319,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 58.71,
+            "emaDiff": "0.22",
+            "macdHist": "0.34"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.5132827689094,
+          "ema20": 2702.2941458751193,
+          "rsi": 58.71,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182600648,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 40.89,
+            "emaDiff": "-0.37",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.488142600957,
+          "ema20": 2702.854243869502,
+          "rsi": 40.89,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182765482,
+    "timeframe": "1minute",
+    "data": {
+      "close": 2707.24268,
+      "open": 2707.89104,
+      "high": 2708.94098,
+      "low": 2707.24268
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2707.9187891746096,
+            "rsiOversold": 30,
+            "stochOversold": 20,
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ema5": 2707.4581771037742,
+          "ema10": 2707.9187891746096,
+          "ema50": 2708.9780546335414,
+          "rsi": 42.33,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "stoch": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2703.24268,
+          "exitConditions": {
+            "priceAbove": 2708.37319649999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2703.24268
+          }
+        },
+        "indicators": {
+          "ma20": 2708.37319649999,
+          "ma50": 2709.550079800002,
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2707.8449611395527,
+          "ema21": 2708.4241836266547,
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Uptrend",
+            "rsiStrength": 43.22,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2708.3580633333404,
+          "sma50": 2709.550079800002,
+          "sma200": 2707.2355212499965,
+          "rsi": 43.22,
+          "latestBearishFractal": 2712.02095,
+          "latestBullishFractal": 2706.0621,
+          "trendStrength": "Weak Uptrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 41.5,
+          "stoch": {
+            "k": 45.05537168424703,
+            "d": 64.88078356629134
+          },
+          "macd": {
+            "MACD": -0.5321595493965106,
+            "signal": -0.2884300556282745,
+            "histogram": -0.24372949376823605
+          },
+          "profitTarget": {
+            "long": 2713.24268,
+            "short": 2701.24268,
+            "stopLossLong": 2705.24268,
+            "stopLossShort": 2709.24268
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2708.3580633333404,
+            "sma50": 2709.550079800002,
+            "sma200": 2707.2355212499965
+          },
+          "stochRSI": {
+            "stochRSI": 72.56281407035172,
+            "k": 57.52093802345055,
+            "d": 15.52345058626478
+          },
+          "vwap": 2694.441788905226,
+          "bb": {
+            "middle": 2708.37319649999,
+            "upper": 2711.6471398629046,
+            "lower": 2705.0992531370757,
+            "pb": 0.3273463565686191
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 41.78,
+            "emaDiff": "-0.62",
+            "macdHist": "-0.18"
+          }
+        },
+        "indicators": {
+          "ema5": 2707.3010078279362,
+          "ema20": 2707.9187891746096,
+          "rsi": 41.78,
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.537873225831845,
+            "signal": -0.3554557337057949,
+            "histogram": -0.18241749212605013
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or Stochastic in neutral zone",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "stochasticZone": "Extreme"
+          }
+        },
+        "indicators": {
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "bollingerBands": {
+            "upper": 2711.6471398629046,
+            "middle": 2708.37319649999,
+            "lower": 2705.0992531370757
+          }
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 43.22,
+            "stochK": 22.56769677032215
+          }
+        },
+        "indicators": {
+          "rsi": 43.22,
+          "stochastic": {
+            "k": 22.56769677032215,
+            "d": 20.308058792072973
+          },
+          "sma50": 2709.550079800002,
+          "trend": "down"
+        }
+      },
+      "11": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 21.787495237719078
+          },
+          "rsi": 43.22,
+          "macd": {
+            "MACD": -0.6626989756496187,
+            "signal": -0.4997905433948825,
+            "histogram": -0.16290843225473617
+          },
+          "fibonacci": {
+            "level_0": 2705.85005,
+            "level_50": 2708.9355,
+            "level_618": 2709.6636662,
+            "extension_1618": 2715.8345662
+          },
+          "profitTarget": {
+            "long": 2711.24268,
+            "short": 2703.24268
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182770988,
+    "timeframe": "5minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.4532892105517,
+          "ema10": 2702.2941458751193,
+          "ema50": 2704.410934264166,
+          "rsi": 54.36,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "stoch": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ma20": 2701.979418499993,
+          "ma50": 2704.441512399985,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.316980087454,
+          "ema21": 2702.487252740769,
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 47.51,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2702.045524761903,
+          "sma50": 2704.441512399985,
+          "sma200": 2708.707495700001,
+          "rsi": 47.51,
+          "latestBearishFractal": 2704.21019,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 63.89,
+          "stoch": {
+            "k": 100,
+            "d": 62.24365622622325
+          },
+          "macd": {
+            "MACD": 0.1485079011495145,
+            "signal": -0.019939571086036285,
+            "histogram": 0.1684474722355508
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2702.045524761903,
+            "sma50": 2704.441512399985,
+            "sma200": 2708.707495700001
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 81.24031007751937,
+            "d": 73.79638178775438
+          },
+          "vwap": 2676.912904534709,
+          "bb": {
+            "middle": 2701.979418499993,
+            "upper": 2703.912941929189,
+            "lower": 2700.0458950707966,
+            "pb": 0.6508415908489451
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 58.71,
+            "emaDiff": "0.22",
+            "macdHist": "0.34"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.5132827689094,
+          "ema20": 2702.2941458751193,
+          "rsi": 58.71,
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bullish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -0.5004455357043298,
+            "signal": -0.8400501818334087,
+            "histogram": 0.3396046461290789
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or Stochastic in neutral zone",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "stochasticZone": "Extreme"
+          }
+        },
+        "indicators": {
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "bollingerBands": {
+            "upper": 2703.912941929189,
+            "middle": 2701.979418499993,
+            "lower": 2700.0458950707966
+          }
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 47.51,
+            "stochK": 86.67798379372931
+          }
+        },
+        "indicators": {
+          "rsi": 47.51,
+          "stochastic": {
+            "k": 86.67798379372931,
+            "d": 85.24388319145974
+          },
+          "sma50": 2704.441512399985,
+          "trend": "down"
+        }
+      },
+      "11": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 29.202176486156425
+          },
+          "rsi": 47.51,
+          "macd": {
+            "MACD": -0.14123203832878062,
+            "signal": -0.2927475983652249,
+            "histogram": 0.15151556003644429
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2706.329835,
+            "level_618": 2707.97923782,
+            "extension_1618": 2721.9572278200003
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": 1737182777783,
+    "timeframe": "15minute",
+    "data": {
+      "close": 2702.56273,
+      "open": 2702.56273,
+      "high": 2702.56273,
+      "low": 2702.56273
+    },
+    "signals": {
+      "1": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema5": 2702.430063774152,
+          "ema10": 2702.854243869502,
+          "ema50": 2707.2575950978658,
+          "rsi": 39.11,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "stoch": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "2": {
+        "signal": {
+          "type": "SELL",
+          "target": 2698.56273,
+          "exitConditions": {
+            "priceAbove": 2704.665625999999,
+            "maReversal": "MA20 crosses above MA50",
+            "profitTarget": 2698.56273
+          }
+        },
+        "indicators": {
+          "ma20": 2704.665625999999,
+          "ma50": 2707.7995125999964,
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "3": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "ema9": 2702.714658910699,
+          "ema21": 2704.6436955444333,
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      },
+      "4": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for trend alignment and fractal signal",
+          "conditions": {
+            "trendAlignment": "Weak Downtrend",
+            "rsiStrength": 39.27,
+            "fractalSignal": null
+          }
+        },
+        "indicators": {
+          "sma21": 2705.0598185714252,
+          "sma50": 2707.7995125999964,
+          "sma200": 2707.704617100002,
+          "rsi": 39.27,
+          "latestBearishFractal": 2717.33052,
+          "latestBullishFractal": 2699.34084,
+          "trendStrength": "Weak Downtrend"
+        }
+      },
+      "5": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "stopLoss": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "timeframe": "1m",
+          "rsi": 46.45,
+          "stoch": {
+            "k": 100,
+            "d": 76.74080825977973
+          },
+          "macd": {
+            "MACD": -0.8951438290359874,
+            "signal": -1.4475997676651322,
+            "histogram": 0.5524559386291448
+          },
+          "profitTarget": {
+            "long": 2708.56273,
+            "short": 2696.56273,
+            "stopLossLong": 2700.56273,
+            "stopLossShort": 2704.56273
+          }
+        }
+      },
+      "6": {
+        "signal": {
+          "type": "WAIT",
+          "entry": null,
+          "target": null,
+          "stopLoss": null,
+          "riskReward": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "sma": {
+            "sma21": 2705.0598185714252,
+            "sma50": 2707.7995125999964,
+            "sma200": 2707.704617100002
+          },
+          "stochRSI": {
+            "stochRSI": 100,
+            "k": 100.00000000000013,
+            "d": 73.55769230769232
+          },
+          "vwap": 2661.0673457037374,
+          "bb": {
+            "middle": 2704.665625999999,
+            "upper": 2711.588415554878,
+            "lower": 2697.7428364451202,
+            "pb": 0.34811787334218813
+          },
+          "engulfing": {
+            "bullish": false,
+            "bearish": false
+          },
+          "marketStructure": {
+            "higherLow": true,
+            "lowerHigh": false
+          }
+        }
+      },
+      "7": {
+        "signal": {
+          "type": "WAIT",
+          "reason": "Waiting for clear signal",
+          "conditions": {
+            "rsiValue": 40.89,
+            "emaDiff": "-0.37",
+            "macdHist": "-0.01"
+          }
+        },
+        "indicators": {
+          "ema5": 2702.488142600957,
+          "ema20": 2702.854243869502,
+          "rsi": 40.89,
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          }
+        }
+      },
+      "8": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or MACD signal cross",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "macdStatus": "Bearish"
+          }
+        },
+        "indicators": {
+          "macd": {
+            "MACD": -2.1216748253409605,
+            "signal": -2.1113575133402955,
+            "histogram": -0.010317312000664991
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "9": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "Price within BB bands or Stochastic in neutral zone",
+          "conditions": {
+            "priceLocation": "Within Bands",
+            "stochasticZone": "Extreme"
+          }
+        },
+        "indicators": {
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "bollingerBands": {
+            "upper": 2711.588415554878,
+            "middle": 2704.665625999999,
+            "lower": 2697.7428364451202
+          }
+        }
+      },
+      "10": {
+        "signal": {
+          "type": "EXIT",
+          "reason": "RSI or Stochastic returned to neutral levels",
+          "conditions": {
+            "rsiValue": 39.27,
+            "stochK": 40.94829941829315
+          }
+        },
+        "indicators": {
+          "rsi": 39.27,
+          "stochastic": {
+            "k": 40.94829941829315,
+            "d": 38.79172265316373
+          },
+          "sma50": 2707.7995125999964,
+          "trend": "down"
+        }
+      },
+      "11": {
+        "signal": {
+          "type": "WAIT",
+          "target": null,
+          "exitConditions": null
+        },
+        "indicators": {
+          "adx": {
+            "adx": 31.762203795592587
+          },
+          "rsi": 39.27,
+          "macd": {
+            "MACD": -2.0472443677008414,
+            "signal": -2.3788024401641286,
+            "histogram": 0.33155807246328717
+          },
+          "fibonacci": {
+            "level_0": 2699.34084,
+            "level_50": 2708.33568,
+            "level_618": 2710.45846224,
+            "extension_1618": 2728.44814224
+          },
+          "profitTarget": {
+            "long": 2706.56273,
+            "short": 2698.56273
+          }
+        }
+      }
+    }
+  }
+]

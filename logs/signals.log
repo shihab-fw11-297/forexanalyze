@@ -1,1 +1,915 @@
 {"level":"info","message":"Server running on port 3000","timestamp":"2025-01-15T09:56:59.634Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-16T14:06:38.781Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:20:26.902Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:20:45.873Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:20:45.971Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:20:51.523Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:20:51.563Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:21:00.585Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:21:00.587Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:21:05.503Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:21:08.068Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:21:10.296Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:21:10.310Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:21:12.300Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:21:12.229Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:22:00.739Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:22:00.742Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:22:05.185Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:22:08.024Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:22:09.998Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:22:10.105Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:22:12.720Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:22:12.788Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:23:52.153Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:23:55.389Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:24:00.667Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:24:00.669Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:24:04.682Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:24:07.552Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:24:09.981Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:24:09.989Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:24:11.913Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:24:11.845Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:25:00.379Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:25:00.381Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:41:32.582Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:41:32.651Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:41:40.875Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:41:41.072Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T14:41:49.483Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:43:00.741Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:43:00.772Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:43:08.635Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:43:11.463Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:43:13.530Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:43:13.589Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:43:20.059Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:43:33.106Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:44:06.867Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:44:08.289Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:45:00.935Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:45:00.942Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:45:06.076Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:45:08.557Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:45:10.750Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:45:10.756Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:45:12.892Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:45:12.942Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:47:00.706Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:47:00.712Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:47:07.126Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:47:11.141Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:47:13.492Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:47:13.525Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:47:16.371Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:47:16.291Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:48:00.578Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:48:00.600Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:48:10.321Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:48:14.052Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:48:16.107Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:48:16.138Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:48:18.167Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:48:18.267Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:49:00.951Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:49:00.964Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:49:07.740Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:49:11.179Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:49:13.370Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:49:13.380Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:49:14.637Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:49:14.951Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:50:00.079Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:50:00.084Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:50:07.047Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:51:00.269Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:51:05.255Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:51:09.106Z"}
+{"level":"error","message":"Error performing analysis: previousOpen is not defined","stack":"ReferenceError: previousOpen is not defined\n    at Strategy7.analyze (D:\\test\\src\\strategies\\Strategy7.js:53:46)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:27:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:84:23)","timestamp":"2025-01-16T14:51:22.719Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:52:00.055Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:52:00.057Z"}
+{"level":"error","message":"Error processing 1minute: previousOpen is not defined","stack":"ReferenceError: previousOpen is not defined\n    at Strategy7.analyze (D:\\test\\src\\strategies\\Strategy7.js:53:46)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:27:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:71:25)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-16T14:52:04.205Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:52:04.207Z"}
+{"level":"error","message":"Error processing 5minute: previousOpen is not defined","stack":"ReferenceError: previousOpen is not defined\n    at Strategy7.analyze (D:\\test\\src\\strategies\\Strategy7.js:53:46)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:27:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:71:25)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-16T14:52:05.717Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:52:05.723Z"}
+{"level":"error","message":"Error processing 15minute: previousOpen is not defined","stack":"ReferenceError: previousOpen is not defined\n    at Strategy7.analyze (D:\\test\\src\\strategies\\Strategy7.js:53:46)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:27:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:71:25)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-16T14:52:06.629Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:52:06.696Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:52:45.623Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:52:45.692Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:53:00.240Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:53:00.243Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:53:12.772Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:53:15.761Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:53:18.324Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:53:18.358Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:53:20.486Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:53:20.877Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:54:00.869Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:54:00.988Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:54:11.998Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:54:15.579Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:54:17.914Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:54:17.919Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:54:19.455Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:54:19.888Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:55:00.321Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T14:55:00.325Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T14:55:11.058Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T14:55:15.116Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T14:55:17.168Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T14:55:17.180Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:55:18.904Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:55:18.948Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T14:57:38.217Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T14:57:38.397Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T14:57:43.165Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:28:38.921Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T15:29:00.114Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T15:29:00.117Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T15:29:05.210Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T15:29:07.618Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T15:29:09.667Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T15:29:09.683Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T15:29:14.138Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:29:37.159Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T15:30:00.634Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T15:30:00.636Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T15:30:05.873Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T15:30:08.581Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T15:30:10.894Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T15:30:10.909Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:30:13.062Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T15:30:12.999Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:43:47.705Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:44:06.704Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:49:20.799Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:49:30.698Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:51:04.753Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:51:18.703Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:52:57.703Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:56:19.690Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:56:25.009Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T15:58:37.872Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T15:59:04.086Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T16:00:32.808Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:00:32.969Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:07:34.358Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:09:22.376Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:09:33.725Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:09:57.778Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:12:18.681Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:13:22.717Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T16:17:06.337Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:17:06.511Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:17:16.772Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T16:17:17.284Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:17:17.434Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:31:59.500Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T16:34:11.753Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:34:11.977Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:43:03.220Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-16T16:43:19.004Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:43:19.151Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:53:52.193Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T16:53:54.659Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:53:55.109Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T16:54:01.000Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-16T16:54:01.003Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-16T16:54:10.429Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-16T16:54:16.245Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-16T16:54:24.185Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-16T16:54:24.201Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-16T16:54:25.411Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-16T16:54:25.773Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:17:11.712Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:17:14.862Z"}
+{"level":"error","message":"Error performing analysis: Failed to fetch market data: Request failed with status code 401","stack":"Error: Failed to fetch market data: Request failed with status code 401\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:54:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:109:20)","timestamp":"2025-01-18T05:17:19.201Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:18:00.268Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:18:00.269Z"}
+{"level":"error","message":"Error processing 1minute: Failed to fetch market data: Request failed with status code 401","stack":"Error: Failed to fetch market data: Request failed with status code 401\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:54:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:70:28)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-18T05:18:01.131Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:18:01.133Z"}
+{"level":"error","message":"Error processing 5minute: Failed to fetch market data: Request failed with status code 401","stack":"Error: Failed to fetch market data: Request failed with status code 401\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:54:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:70:28)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-18T05:18:01.923Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:18:01.929Z"}
+{"level":"error","message":"Error processing 15minute: Failed to fetch market data: Request failed with status code 401","stack":"Error: Failed to fetch market data: Request failed with status code 401\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:54:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:70:28)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-18T05:18:02.718Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:18:02.721Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:19:13.613Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:19:13.802Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:20:00.174Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:20:00.176Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:20:04.288Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:20:09.659Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:20:15.321Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:20:15.326Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:20:16.701Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:20:16.790Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:21:00.784Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:21:00.797Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:21:04.964Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:21:13.737Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:21:21.289Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:21:21.298Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:21:22.489Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:21:23.001Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:22:00.255Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:22:00.258Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:22:09.341Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:22:15.295Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:22:20.794Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:22:20.802Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:22:21.927Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:22:22.557Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:24:00.522Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:24:00.529Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:24:05.676Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:24:09.710Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:24:14.245Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:24:14.260Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:24:16.662Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:24:17.056Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:25:00.660Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:25:00.666Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:25:11.180Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:25:17.992Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:25:26.718Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:25:26.730Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:25:28.302Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:25:28.532Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:26:00.521Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:26:00.524Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:26:09.267Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:26:16.864Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:26:24.472Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:26:24.504Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:26:26.263Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:26:26.500Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:27:00.780Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:27:00.784Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:27:10.591Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:27:19.465Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:27:31.639Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:27:31.658Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:27:33.250Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:27:33.498Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:28:00.864Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:28:00.866Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:28:05.267Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:28:09.382Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:28:13.412Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:28:13.421Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:28:14.697Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:28:15.493Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:29:00.104Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:29:00.112Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:29:12.334Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:29:19.673Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:29:29.538Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:29:29.568Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:29:32.473Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:29:32.531Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:30:04.090Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:30:04.230Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:30:20.148Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:30:20.486Z"}
+{"level":"error","message":"Error performing analysis: Failed to fetch market data: results is not defined","stack":"Error: Failed to fetch market data: results is not defined\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:56:11)\n    at Socket.<anonymous> (D:\\test\\src\\server.js:109:26)\n    at Socket.emit (node:events:517:28)\n    at Socket.emitUntyped (D:\\test\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at D:\\test\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-01-18T05:30:20.549Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:30:51.795Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:30:51.963Z"}
+{"level":"error","message":"Error performing analysis: Failed to fetch market data: results is not defined","stack":"Error: Failed to fetch market data: results is not defined\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:56:11)\n    at Socket.<anonymous> (D:\\test\\src\\server.js:109:26)\n    at Socket.emit (node:events:517:28)\n    at Socket.emitUntyped (D:\\test\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at D:\\test\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-01-18T05:30:52.018Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:31:00.924Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:31:00.927Z"}
+{"level":"error","message":"Error processing 1minute: Failed to fetch market data: results is not defined","stack":"Error: Failed to fetch market data: results is not defined\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:56:11)\n    at processTimeframes (D:\\test\\src\\automatedTrading.js:70:34)\n    at cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:15)\n    at Task.execute (D:\\test\\node_modules\\node-cron\\src\\task.js:17:25)\n    at ScheduledTask.now (D:\\test\\node_modules\\node-cron\\src\\scheduled-task.js:38:33)\n    at Scheduler.<anonymous> (D:\\test\\node_modules\\node-cron\\src\\scheduled-task.js:25:18)\n    at Scheduler.emit (node:events:517:28)\n    at Timeout.matchTime [as _onTimeout] (D:\\test\\node_modules\\node-cron\\src\\scheduler.js:30:26)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)","timestamp":"2025-01-18T05:31:00.936Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:31:00.939Z"}
+{"level":"error","message":"Error processing 5minute: Failed to fetch market data: results is not defined","stack":"Error: Failed to fetch market data: results is not defined\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:56:11)\n    at processTimeframes (D:\\test\\src\\automatedTrading.js:70:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-18T05:31:00.944Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:31:00.946Z"}
+{"level":"error","message":"Error processing 15minute: Failed to fetch market data: results is not defined","stack":"Error: Failed to fetch market data: results is not defined\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:56:11)\n    at processTimeframes (D:\\test\\src\\automatedTrading.js:70:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-18T05:31:00.953Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:31:00.958Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:34:32.443Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:34:32.495Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T05:34:37.189Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:34:39.225Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:35:00.763Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:35:00.770Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:35:01.974Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:35:03.187Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:35:04.409Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:35:04.414Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:35:06.054Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:35:06.498Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:36:00.904Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:36:00.906Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:36:02.288Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:36:03.534Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:36:04.857Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:36:04.881Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:36:06.667Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:36:06.724Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:36:35.584Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:36:35.755Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:36:42.528Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:36:42.574Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T05:36:53.290Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:36:53.446Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:37:00.645Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:37:00.649Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T05:37:00.965Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:37:01.087Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:37:01.832Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:37:02.989Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:37:04.177Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:37:04.184Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:37:05.540Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:37:05.602Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:38:00.954Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:38:00.955Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:38:02.066Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:38:03.246Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:38:04.555Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:38:04.573Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:38:06.709Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:38:07.476Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:38:13.237Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:38:13.302Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T05:38:15.402Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:38:15.781Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:39:00.760Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:39:00.762Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:39:01.956Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:39:03.227Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:39:04.525Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:39:04.545Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:39:09.210Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:39:09.441Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:40:00.392Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:40:00.396Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:40:02.027Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:40:04.238Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:40:05.814Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:40:05.822Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:40:09.819Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:40:09.951Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:41:00.312Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:41:00.314Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:41:01.869Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:41:03.003Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:41:04.381Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:41:04.462Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:41:06.601Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:41:06.724Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:42:00.094Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:42:00.098Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:42:01.371Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:42:02.966Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:42:04.180Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:42:04.186Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:42:05.976Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:42:06.193Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:42:12.632Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:42:12.717Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:43:00.561Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:43:00.568Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:43:01.775Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:43:02.994Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:43:04.135Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:43:04.141Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:43:05.677Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:43:06.445Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:43:33.404Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:43:33.495Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:44:01.057Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:44:01.230Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:44:13.258Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:44:13.694Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:45:00.264Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:45:00.267Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:45:06.777Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:45:12.256Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:45:19.474Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:45:19.481Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:45:21.700Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:45:21.814Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:46:00.074Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:46:00.076Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:46:06.292Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:46:11.466Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:46:17.838Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:46:17.844Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:46:19.131Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:46:20.435Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:47:00.440Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:47:00.474Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:47:06.596Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:47:14.875Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:47:20.980Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:47:21.018Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:47:22.481Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:47:23.480Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:48:00.846Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:48:00.849Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:48:09.670Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:48:14.048Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:48:20.454Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:48:20.486Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:48:22.135Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:48:22.475Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:49:00.449Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:49:00.451Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:49:06.307Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:49:11.597Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:49:17.848Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:49:17.859Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:49:19.481Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:49:19.528Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:50:00.810Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:50:00.813Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:50:11.352Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:50:18.640Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:50:24.162Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:50:24.216Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:50:25.802Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:50:26.465Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:51:00.501Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:51:00.504Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:51:07.102Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:51:12.329Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:51:18.252Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:51:18.258Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:51:19.432Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:51:19.476Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:52:00.778Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:52:00.780Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:52:05.821Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:52:12.645Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:52:21.664Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:52:21.679Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:52:22.902Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:52:23.465Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:53:00.670Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:53:00.674Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:53:07.383Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:53:16.834Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:53:26.619Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:53:26.626Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:53:27.812Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:53:28.445Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:54:00.085Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:54:00.088Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:54:07.199Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:54:12.402Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:54:18.885Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:54:18.891Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:54:21.144Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:54:21.435Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:55:00.437Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:55:00.440Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:55:12.702Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:55:18.589Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:55:26.256Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:55:26.367Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:55:30.786Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:55:30.917Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:56:00.022Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:56:00.031Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:56:10.869Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:56:17.692Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:56:24.043Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:56:24.048Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:56:25.443Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:56:26.472Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:56:55.419Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:56:55.593Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:57:00.517Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:57:00.518Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:57:06.001Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:57:11.531Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:57:17.201Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:57:17.208Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:57:18.403Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:57:18.461Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:58:00.945Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:58:00.949Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:58:05.963Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:58:09.938Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:58:13.876Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:58:13.883Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:58:15.012Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:58:16.428Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:59:00.391Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T05:59:00.405Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T05:59:09.106Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T05:59:14.275Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T05:59:19.405Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T05:59:19.422Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T05:59:20.908Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T05:59:21.432Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:00:00.312Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:00:00.315Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:00:09.372Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:00:15.428Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:00:24.768Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:00:24.792Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:00:26.253Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:00:26.445Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:01:00.888Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:01:00.891Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:01:07.710Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:01:13.851Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:01:22.126Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:01:22.163Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:01:23.764Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:01:24.440Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:02:00.436Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:02:00.439Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:02:06.083Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:02:13.841Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:02:28.871Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:02:28.877Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:02:30.327Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:02:30.451Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:03:00.563Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:03:00.566Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:03:14.348Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:03:26.427Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:03:35.159Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:03:35.167Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:03:37.280Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:03:37.345Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:04:00.599Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:04:00.611Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:04:15.791Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:04:20.841Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:04:28.664Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:04:28.671Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:04:29.732Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:04:29.911Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:05:00.050Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:05:00.053Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:05:07.693Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:05:16.169Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:05:32.039Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:05:32.044Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:05:33.184Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:05:34.458Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:06:00.367Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:06:00.369Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:06:16.046Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:06:28.294Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:06:35.524Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:06:35.532Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:06:37.285Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:06:37.428Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:07:00.873Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:07:00.876Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:07:09.008Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:07:16.494Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:07:24.506Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:07:24.514Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:07:25.707Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:07:26.416Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:08:00.437Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:08:00.440Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:08:06.433Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:08:14.998Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:08:28.223Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:08:28.230Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:08:29.383Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:08:29.429Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:08:48.088Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:08:48.480Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:09:00.370Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:09:00.372Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:09:07.431Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:09:13.328Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:09:19.234Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:09:19.240Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:09:20.510Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:09:21.440Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:10:00.956Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:10:00.959Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:10:10.182Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:10:15.165Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:10:21.176Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:10:21.189Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:10:22.510Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:10:22.693Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:11:00.759Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:11:00.764Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:11:06.711Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:11:11.344Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:11:16.220Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:11:16.228Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:11:17.496Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:11:17.539Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:12:00.348Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:12:00.350Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:12:19.322Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:12:26.473Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:12:34.128Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:12:34.133Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:12:35.533Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:12:35.666Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:13:00.665Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:13:00.668Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:13:10.673Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:13:17.444Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:13:28.465Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:13:28.472Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:13:29.744Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:13:29.798Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:14:00.319Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:14:00.323Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:14:06.579Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:14:11.495Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:14:17.981Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:14:17.987Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:14:19.067Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:14:20.409Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:15:00.315Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:15:00.322Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:15:05.671Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:15:11.768Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:15:16.758Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:15:16.771Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:15:17.893Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:15:18.219Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:16:00.657Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:16:00.659Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:16:11.835Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:16:16.950Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:16:22.613Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:16:22.627Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:16:24.567Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:16:25.566Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:17:00.166Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:17:00.168Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:17:07.365Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:17:15.200Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:17:20.520Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:17:20.551Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:17:22.464Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:17:22.516Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:18:00.146Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:18:00.148Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:18:08.287Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:18:14.693Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:18:23.548Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:18:23.567Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:18:25.589Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:18:25.670Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:19:00.829Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:19:00.832Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:19:07.416Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:19:17.105Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:19:26.252Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:19:26.259Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:19:27.357Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:19:28.402Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:20:00.619Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:20:00.621Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:20:06.829Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:20:15.323Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:20:24.148Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:20:24.154Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:20:25.246Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:20:25.413Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:21:00.644Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:21:00.677Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:21:06.453Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:21:10.891Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:21:17.194Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:21:17.198Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:21:18.362Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:21:18.420Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:22:00.687Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:22:00.690Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:22:07.529Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:22:20.866Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:22:28.434Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:22:28.441Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:22:29.570Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:22:29.645Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:23:00.289Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:23:00.293Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:23:10.228Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:23:19.165Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:23:25.311Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:23:25.317Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:23:26.431Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:23:27.395Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:24:00.126Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:24:00.130Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:24:07.948Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:24:18.090Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:24:27.346Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:24:27.370Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:24:29.094Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:24:29.165Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:25:00.265Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:25:00.269Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:25:10.146Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:25:12.759Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:25:13.013Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:26:00.850Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:26:00.852Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:26:08.613Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:26:14.812Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:26:22.740Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:26:22.752Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:26:23.865Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:26:24.406Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:27:00.191Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:27:00.194Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:27:10.314Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:27:21.454Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:27:27.559Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:27:27.591Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:27:28.902Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:27:29.396Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:28:00.227Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:28:00.239Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:28:10.294Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:28:24.905Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:28:36.836Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:28:36.842Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:28:37.989Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:28:38.412Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:29:00.452Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:29:00.455Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:29:10.738Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:29:17.997Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:29:25.665Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:29:25.683Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:29:27.032Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:29:27.403Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:30:00.010Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:30:00.019Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:30:08.238Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:30:14.486Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:30:24.616Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:30:24.623Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:30:25.964Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:30:26.385Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:31:00.301Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:31:00.304Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:31:07.474Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:31:12.646Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:31:17.983Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:31:18.000Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:31:20.211Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:31:20.417Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:31:39.263Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:31:39.404Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T06:31:44.906Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:31:45.204Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:32:00.020Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:32:00.026Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:32:05.293Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:32:10.777Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:32:18.912Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:32:18.960Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T06:32:37.182Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:32:37.410Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:33:00.798Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:33:00.801Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:33:13.094Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:33:23.048Z"}
+{"level":"error","message":"Error reading history file: Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at readHistoryFile (D:\\test\\src\\automatedTrading.js:34:17)\n    at async appendToHistoryFile (D:\\test\\src\\automatedTrading.js:43:29)\n    at async processTimeframes (D:\\test\\src\\automatedTrading.js:96:7)\n    at async cron.schedule.scheduled [as _execution] (D:\\test\\src\\automatedTrading.js:123:9)","timestamp":"2025-01-18T06:33:39.002Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:33:39.009Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:33:39.016Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:33:40.558Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:33:41.430Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:33:57.292Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:33:57.460Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:34:00.318Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:34:00.322Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:34:06.745Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:34:13.040Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:34:18.628Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:34:18.726Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:34:20.808Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:34:20.862Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:35:00.622Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:35:00.626Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:35:09.465Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:35:17.783Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:35:28.159Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:35:28.170Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:35:30.296Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:35:30.404Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:36:00.558Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:36:00.562Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:36:08.335Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:36:08.388Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:36:40.272Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:36:40.415Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:37:00.010Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:37:00.015Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:37:03.656Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:37:03.702Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:37:36.122Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:37:37.580Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:38:00.359Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:38:00.363Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:38:02.794Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:38:03.402Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:39:00.259Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:39:00.265Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:39:11.089Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:39:21.808Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:39:28.590Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:39:28.600Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:39:29.855Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:39:31.373Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:40:00.141Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:40:00.142Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:40:06.889Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:40:13.091Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:40:18.560Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:40:18.574Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:40:20.769Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:40:20.819Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:41:00.045Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:41:00.052Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:41:14.457Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:41:26.232Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:41:31.826Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:41:31.844Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:41:33.643Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:41:33.728Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:42:00.945Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:42:00.949Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:42:11.102Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:42:21.433Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:42:35.117Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:42:35.130Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:42:36.452Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:42:36.503Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:43:00.650Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:43:00.654Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:43:08.581Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:43:16.325Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:43:21.670Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:43:21.679Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:43:23.389Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:43:23.468Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:44:00.841Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:44:00.843Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:44:08.152Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:44:08.217Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:44:10.826Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:44:11.408Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:44:43.707Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:44:44.384Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:45:11.887Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:45:12.576Z"}
+{"level":"info","message":"Starting 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:46:00.468Z"}
+{"level":"info","message":"Processing 1minute timeframe","timestamp":"2025-01-18T06:46:00.472Z"}
+{"level":"info","message":"Processing 5minute timeframe","timestamp":"2025-01-18T06:46:06.494Z"}
+{"level":"info","message":"Processing 15minute timeframe","timestamp":"2025-01-18T06:46:12.008Z"}
+{"level":"info","message":"Successfully appended 3 entries to history.json","timestamp":"2025-01-18T06:46:18.803Z"}
+{"level":"info","message":"Completed 3-minute analysis cycle for all timeframes","timestamp":"2025-01-18T06:46:18.809Z"}
+{"level":"info","message":"Automated trading system started - will run every 3 minutes","timestamp":"2025-01-18T06:46:20.180Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:46:21.388Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:46:30.398Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T06:46:34.032Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:46:34.218Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:47:17.840Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:50:53.413Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:54:48.344Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:55:01.372Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:55:15.379Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:55:33.434Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T06:55:35.551Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T06:55:35.751Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T07:14:28.008Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T07:14:38.386Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T07:16:27.795Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T07:16:41.425Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T07:18:24.619Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T07:18:39.315Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T07:23:00.862Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T08:59:10.250Z"}
+{"level":"error","message":"Error performing analysis: Failed to fetch market data: getaddrinfo ENOTFOUND api.finage.co.uk","stack":"Error: Failed to fetch market data: getaddrinfo ENOTFOUND api.finage.co.uk\n    at fetchMarketData (D:\\test\\src\\services\\marketData.js:54:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:85:20)","timestamp":"2025-01-18T08:59:10.421Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:02:15.615Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:03:27.796Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:03:36.888Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T09:03:44.644Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:03:44.810Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:05:33.323Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T09:05:41.899Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:05:42.135Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:06:51.374Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:07:03.350Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:07:18.532Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T09:07:54.859Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T09:27:45.736Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T10:35:51.794Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-18T10:35:53.614Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T10:35:53.744Z"}
+{"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:36:03.225Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T10:36:21.612Z"}
+{"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:36:28.450Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T10:36:59.480Z"}
+{"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:37:02.717Z"}
+{"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:37:03.797Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-18T10:37:10.507Z"}
+{"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:37:16.325Z"}

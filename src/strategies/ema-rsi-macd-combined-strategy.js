@@ -1,6 +1,6 @@
 const { EMA, RSI, MACD } = require('technicalindicators');
 
-class Strategy3 {
+class EmaRsiMacdCombinedStrategy {
   async analyze(data) {
     const { close } = data;
     
@@ -9,13 +9,13 @@ class Strategy3 {
     const ema21 = EMA.calculate({ period: 21, values: close });
     
     // Calculate RSI
-    const rsi = RSI.calculate({ period: 14, values: close });
+    const rsi = RSI.calculate({ period: 7, values: close });
     
     // Calculate MACD
     const macd = MACD.calculate({
-      fastPeriod: 12,
-      slowPeriod: 26,
-      signalPeriod: 9,
+      fastPeriod: 6,
+      slowPeriod: 12,
+      signalPeriod: 5,
       values: close
     });
     
@@ -103,4 +103,4 @@ class Strategy3 {
   }
 }
 
-module.exports = { Strategy3 };
+module.exports = { EmaRsiMacdCombinedStrategy };

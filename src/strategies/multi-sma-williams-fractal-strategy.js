@@ -1,7 +1,7 @@
 // strategy4.js
 const { SMA, RSI } = require('technicalindicators');
 
-class Strategy4 {
+class MultiSmaWilliamsFractalStrategy {
   calculateWilliamsFractals(high, low, period = 5) {
     const bearishFractals = [];
     const bullishFractals = [];
@@ -166,4 +166,4 @@ class Strategy4 {
   }
 }
 
-module.exports = { Strategy4 };
+module.exports = { MultiSmaWilliamsFractalStrategy };

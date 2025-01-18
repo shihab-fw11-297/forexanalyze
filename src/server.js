@@ -3,9 +3,9 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const path = require("path");
-const { initializeStrategies } = require("./src/strategies");
-const { setupLogging } = require("./src/utils/logger");
-const { fetchMarketData } = require("./src/services/marketData");
+const { initializeStrategies } = require("./strategies");
+const { setupLogging } = require("./utils/logger");
+const { fetchMarketData } = require("./services/marketData");
 const fs = require("fs").promises;
 
 const app = express();
@@ -29,21 +29,22 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/", (req, res) => {
   res.render("index", {
     strategies: [
-      { id: 1, name: "EMA Crossover Strategy" },
-      { id: 2, name: "MA Breakout Strategy" },
-      { id: 4, name: "Smoothed Moving Average Scalping Strategy" },
-      { id: 5, name: "High-Frequency EMA Scalping Strategy" },
-      { id: 6, name: "Scalping Strategy" },
-      { id: 7, name: "Breakout Strategy" },
-      { id: 8, name: "Momentum Strategy" },
-      { id: 9, name: "Range Trading Strategy" },
-      { id: 10, name: "EMA RSI MACD Trend Reversal Strategy" },
-      { id: 11, name: "MACD Bollinger Bands Breakout Strategy" },
-      { id: 12, name: "RSI Stochastic MA Crossover Strategy" },
-      { id: 13, name: "Fibonacci RSI ADX Strategy" },
-      { id: 14, name: "Pin Bar + RSI + MACD Reversal Strategy" },
-      { id: 15, name: "Stochastic Oscillator + RSI Divergence + EMA Trend Confirmation Strategy" },
-      { id: 16, name: "ADX + RSI + Fibonacci Extension MACD Confirmation"}
+      { id: 1, name: "Triple EMA Trend Strategy" },
+      { id: 2, name: "Basic MA Breakout Strategy" },
+      { id: 3, name: "EMA RSI MACD Combined Strategy" },
+      { id: 4, name: "Multi SMA Williams Fractal Strategy" },
+      { id: 5, name: "Fast RSI Stochastic MACD Scalping Strategy" },
+      { id: 6, name: "Advanced Multi-Indicator Breakout Strategy" },
+      { id: 7, name: "Fast EMA Trend Reversal Strategy" },
+      { id: 8, name: "MACD Bollinger Breakout Strategy" },
+      { id: 9, name: "Bollinger Bands & Stochastic Breakout Scalper" },
+      { id: 10, name: "RSI Stochastic SMA Confluence Strategy" },
+      { id: 11, name: "1-Minute Trend Confirmation" },
+      { id: 12, name: "RSI divergence" },
+      { id: 13, name: " Donchian Channels, Anchored VWAP, Ichimoku Cloud, and Fibonacci retracements." },
+      { id: 14, name: "Triangle Pattern Strategy" },
+      { id: 15, name: "Flag Pattern Strategy" },
+      {id:16, name:"Candlesticks patten"}
     ],
   });
 });
@@ -104,9 +105,8 @@ io.on("connection", (socket) => {
 // Start server
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, async () => {
-  logger.info(`Server running on port ${PORT}`);
-  
+  console.log(`Server running on port ${PORT}`);
   // Import and start trading system only after server is fully initialized
-  const { startTradingSystem } = require('./src/automatedTrading');
+  const { startTradingSystem } = require('./automatedTrading');
   // startTradingSystem();
 });
