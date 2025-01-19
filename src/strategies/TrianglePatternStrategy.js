@@ -1,4 +1,38 @@
-const { LinearRegression } = require('technicalindicators');
+// Custom Linear Regression implementation
+class SimpleLinearRegression {
+  constructor(points) {
+    this.points = points;
+    this.calculate();
+  }
+
+  calculate() {
+    const n = this.points.length;
+    if (n < 2) {
+      this.slope = 0;
+      this.intercept = 0;
+      return;
+    }
+
+    let sumX = 0;
+    let sumY = 0;
+    let sumXY = 0;
+    let sumXX = 0;
+
+    for (const point of this.points) {
+      sumX += point.x;
+      sumY += point.y;
+      sumXY += point.x * point.y;
+      sumXX += point.x * point.x;
+    }
+
+    const meanX = sumX / n;
+    const meanY = sumY / n;
+
+    // Calculate slope and intercept
+    this.slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+    this.intercept = meanY - this.slope * meanX;
+  }
+}
 
 class TrianglePatternStrategy {
   constructor() {
@@ -83,11 +117,11 @@ class TrianglePatternStrategy {
     
     // Check for horizontal resistance
     const highsRegression = this.calculateRegressionLine(highs);
-    if (Math.abs(highsRegression.slope) > 0.0001) return null;
+    if (!highsRegression || Math.abs(highsRegression.slope) > 0.0001) return null;
     
     // Check for ascending support
     const lowsRegression = this.calculateRegressionLine(lows);
-    if (lowsRegression.slope <= 0) return null;
+    if (!lowsRegression || lowsRegression.slope <= 0) return null;
     
     return {
       type: 'ascending',
@@ -107,11 +141,11 @@ class TrianglePatternStrategy {
     
     // Check for descending resistance
     const highsRegression = this.calculateRegressionLine(highs);
-    if (highsRegression.slope >= 0) return null;
+    if (!highsRegression || highsRegression.slope >= 0) return null;
     
     // Check for horizontal support
     const lowsRegression = this.calculateRegressionLine(lows);
-    if (Math.abs(lowsRegression.slope) > 0.0001) return null;
+    if (!lowsRegression || Math.abs(lowsRegression.slope) > 0.0001) return null;
     
     return {
       type: 'descending',
@@ -133,6 +167,8 @@ class TrianglePatternStrategy {
     const highsRegression = this.calculateRegressionLine(highs);
     const lowsRegression = this.calculateRegressionLine(lows);
     
+    if (!highsRegression || !lowsRegression) return null;
+
     // Check for converging lines
     if (highsRegression.slope >= 0 || lowsRegression.slope <= 0) return null;
     
@@ -157,7 +193,7 @@ class TrianglePatternStrategy {
       y: point.price
     }));
     
-    const regression = new LinearRegression(input);
+    const regression = new SimpleLinearRegression(input);
     return {
       slope: regression.slope,
       intercept: regression.intercept

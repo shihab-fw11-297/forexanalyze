@@ -29,7 +29,7 @@ async function fetchMarketData(timeframe, days = 10) {
       startDate = moment().subtract(5, 'days').format('YYYY-MM-DD');
   }
 
-  console.log("Fetching data with timeframe:", timeframe, "from:", startDate, "to:", endDate);
+  // console.log("Fetching data with timeframe:", timeframe, "from:", startDate, "to:", endDate);
 
   try {
     // Construct the API URL dynamically based on timeframe

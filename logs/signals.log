@@ -913,3 +913,18 @@
 {"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:37:03.797Z"}
 {"level":"info","message":"Client connected","timestamp":"2025-01-18T10:37:10.507Z"}
 {"level":"error","message":"Error performing analysis: LinearRegression is not a constructor","stack":"TypeError: LinearRegression is not a constructor\n    at FlagPatternStrategy.calculateRegressionLine (D:\\test\\src\\strategies\\FlagPatternStrategy.js:219:24)\n    at FlagPatternStrategy.analyzeBullFlag (D:\\test\\src\\strategies\\FlagPatternStrategy.js:133:29)\n    at FlagPatternStrategy.identifyFlagPatterns (D:\\test\\src\\strategies\\FlagPatternStrategy.js:50:32)\n    at FlagPatternStrategy.analyze (D:\\test\\src\\strategies\\FlagPatternStrategy.js:15:27)\n    at initializeStrategies (D:\\test\\src\\strategies\\index.js:42:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (D:\\test\\src\\server.js:91:23)","timestamp":"2025-01-18T10:37:16.325Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T05:22:29.534Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T05:33:59.133Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-19T05:34:14.610Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:26:56.621Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-19T06:27:27.100Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:27:27.250Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-19T06:28:25.574Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:28:25.705Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:31:20.720Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-19T06:33:15.584Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:33:15.743Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-19T06:33:26.773Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:33:26.905Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2025-01-19T06:34:17.847Z"}
+{"level":"info","message":"Client connected","timestamp":"2025-01-19T06:34:17.967Z"}

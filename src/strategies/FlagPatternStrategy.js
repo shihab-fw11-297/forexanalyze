@@ -1,4 +1,37 @@
-const { LinearRegression } = require('technicalindicators');
+class SimpleLinearRegression {
+  constructor(points) {
+    this.points = points;
+    this.calculate();
+  }
+
+  calculate() {
+    const n = this.points.length;
+    if (n < 2) {
+      this.slope = 0;
+      this.intercept = 0;
+      return;
+    }
+
+    let sumX = 0;
+    let sumY = 0;
+    let sumXY = 0;
+    let sumXX = 0;
+
+    for (const point of this.points) {
+      sumX += point.x;
+      sumY += point.y;
+      sumXY += point.x * point.y;
+      sumXX += point.x * point.x;
+    }
+
+    const meanX = sumX / n;
+    const meanY = sumY / n;
+
+    // Calculate slope and intercept
+    this.slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+    this.intercept = meanY - this.slope * meanX;
+  }
+}
 
 class FlagPatternStrategy {
   constructor() {
@@ -216,7 +249,7 @@ class FlagPatternStrategy {
       y: point.price
     }));
     
-    const regression = new LinearRegression(input);
+    const regression = new SimpleLinearRegression(input);
     return {
       slope: regression.slope,
       intercept: regression.intercept

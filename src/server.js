@@ -7,6 +7,8 @@ const { initializeStrategies } = require("./strategies");
 const { setupLogging } = require("./utils/logger");
 const { fetchMarketData } = require("./services/marketData");
 const fs = require("fs").promises;
+const { startAutomatedAnalysis, addAutomatedAnalysisRoutes } = require('./automatedAnalysis');
+const { startTradingSystem } = require('./automatedTrading');
 
 const app = express();
 const server = http.createServer(app);
@@ -48,6 +50,105 @@ app.get("/", (req, res) => {
     ],
   });
 });
+
+
+// Helper function to count signals
+function countSignals(signals) {
+  const counts = {
+    BUY: 0,
+    SELL: 0,
+    WAIT: 0
+  };
+  
+  Object.values(signals).forEach(signal => {
+    const type = signal.signal?.type || 'WAIT';
+    counts[type]++;
+  });
+  
+  return counts;
+}
+
+const TIMEFRAMES = [
+  { interval: "1", unit: "minute" },
+  { interval: "5", unit: "minute" },
+  { interval: "15", unit: "minute" },
+  { interval: "30", unit: "minute" },
+  { interval: "1", unit: "hour" },
+  { interval: "4", unit: "hour" }
+];
+
+async function analyzeTimeframe(timeframe, unit) {
+  try {
+    const marketData = await fetchMarketData(timeframe, unit);
+    const signals = await initializeStrategies(marketData);
+    const counts = countSignals(signals);
+    
+    return {
+      timeframe: `${timeframe}${unit.charAt(0)}`,
+      signals: counts
+    };
+  } catch (error) {
+    console.error(`Error analyzing ${timeframe}${unit} timeframe:`, error);
+    return null;
+  }
+}
+
+// Add this after your other routes
+addAutomatedAnalysisRoutes(app);
+
+app.get("/api/multi-timeframe-analysis", async (req, res) => {
+  try {
+    const results = await Promise.all(
+      TIMEFRAMES.map(({ interval, unit }) => analyzeTimeframe(interval, unit))
+    );
+    
+    const validResults = results.filter(result => result !== null);
+    
+    // Calculate overall totals
+    const overall = validResults.reduce((acc, result) => {
+      acc.BUY += result.signals.BUY;
+      acc.SELL += result.signals.SELL;
+      acc.WAIT += result.signals.WAIT;
+      return acc;
+    }, { BUY: 0, SELL: 0, WAIT: 0 });
+    
+    res.json({
+      timeframes: validResults,
+      overall,
+      timestamp: new Date().toISOString()
+    });
+    
+  } catch (error) {
+    console.error("Error in timeframe analysis:", error);
+    res.status(500).json({
+      error: "Failed to perform timeframe analysis"
+    });
+  }
+});
+
+app.get("/api/analysis/history/:year/:month", async (req, res) => {
+  try {
+    const { year, month } = req.params;
+    const filePath = path.join(__dirname, "majorityHistory", `${year}-${month}.json`);
+    
+    try {
+      const data = await fs.readFile(filePath, 'utf8');
+      const historyData = JSON.parse(data);
+      res.json(historyData);
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        // If file doesn't exist, return empty array
+        res.json([]);
+      } else {
+        throw error;
+      }
+    }
+  } catch (error) {
+    console.error("Error fetching monthly history:", error);
+    res.status(500).json({ error: "Failed to fetch monthly history data" });
+  }
+});
+
 
 async function readHistoryFile() {
   try {
@@ -107,6 +208,6 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, async () => {
   console.log(`Server running on port ${PORT}`);
   // Import and start trading system only after server is fully initialized
-  const { startTradingSystem } = require('./automatedTrading');
   // startTradingSystem();
+  // startAutomatedAnalysis();
 });
