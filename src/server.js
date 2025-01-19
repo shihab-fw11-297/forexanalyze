@@ -44,9 +44,12 @@ app.get("/", (req, res) => {
       { id: 11, name: "1-Minute Trend Confirmation" },
       { id: 12, name: "RSI divergence" },
       { id: 13, name: " Donchian Channels, Anchored VWAP, Ichimoku Cloud, and Fibonacci retracements." },
-      { id: 14, name: "Triangle Pattern Strategy" },
-      { id: 15, name: "Flag Pattern Strategy" },
-      {id:16, name:"Candlesticks patten"}
+      { id: 14, name: "Moving Average Scalper (Quick-EMA)" },
+      { id: 15, name: "Stochastic Momentum" },
+      { id: 16, name: "Multi-Indicator Breakout" },
+      { id: 17, name: "Triangle Pattern Strategy" },
+      { id: 18, name: "Flag Pattern Strategy" },
+      { id: 19, name: "Candlesticks patten" }
     ],
   });
 });
@@ -59,12 +62,12 @@ function countSignals(signals) {
     SELL: 0,
     WAIT: 0
   };
-  
+
   Object.values(signals).forEach(signal => {
     const type = signal.signal?.type || 'WAIT';
     counts[type]++;
   });
-  
+
   return counts;
 }
 
@@ -82,7 +85,7 @@ async function analyzeTimeframe(timeframe, unit) {
     const marketData = await fetchMarketData(timeframe, unit);
     const signals = await initializeStrategies(marketData);
     const counts = countSignals(signals);
-    
+
     return {
       timeframe: `${timeframe}${unit.charAt(0)}`,
       signals: counts
@@ -101,9 +104,9 @@ app.get("/api/multi-timeframe-analysis", async (req, res) => {
     const results = await Promise.all(
       TIMEFRAMES.map(({ interval, unit }) => analyzeTimeframe(interval, unit))
     );
-    
+
     const validResults = results.filter(result => result !== null);
-    
+
     // Calculate overall totals
     const overall = validResults.reduce((acc, result) => {
       acc.BUY += result.signals.BUY;
@@ -111,13 +114,13 @@ app.get("/api/multi-timeframe-analysis", async (req, res) => {
       acc.WAIT += result.signals.WAIT;
       return acc;
     }, { BUY: 0, SELL: 0, WAIT: 0 });
-    
+
     res.json({
       timeframes: validResults,
       overall,
       timestamp: new Date().toISOString()
     });
-    
+
   } catch (error) {
     console.error("Error in timeframe analysis:", error);
     res.status(500).json({
@@ -130,7 +133,7 @@ app.get("/api/analysis/history/:year/:month", async (req, res) => {
   try {
     const { year, month } = req.params;
     const filePath = path.join(__dirname, "majorityHistory", `${year}-${month}.json`);
-    
+
     try {
       const data = await fs.readFile(filePath, 'utf8');
       const historyData = JSON.parse(data);

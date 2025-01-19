@@ -57,4 +57,33 @@ Sells when: RSI>70 (overbought), Stochastic K>80 (overbought), and SMA50 trendin
 Exits when: RSI or Stochastic return to neutral zone (40-60)
 Waits when none of these conditions are met
 
-Looking for a reliable, short-term trading strategy to safely gain 6-7 pips in XAU/USD pairs, while avoiding news-driven volatility. How effective is this strategy for consistently achieving 6-7 pips profit in XAU/USD specifically and give score?
+12.Moving Average Scalping Strategy:
+Indicators: EMA (5,13), RSI (14)
+Buys when: 5 EMA crosses above 13 EMA, RSI between 30-70
+Sells when: 5 EMA crosses below 13 EMA, RSI between 30-70
+Exits when: 6-7 pip target reached or 3-4 pip stop loss hit
+
+13.Stochastic Oscillator Momentum Strategy:
+Indicators: Stochastic Oscillator (14,3,3), Candlestick Patterns
+Buys when: Stochastic crosses above 20 with bullish candlestick pattern (engulfing/hammer)
+Sells when: Stochastic crosses below 80 with bearish candlestick pattern (shooting star/engulfing)
+Exits when: 6-7 pip target reached or 3-4 pip stop loss hit
+
+14.Advanced Multi-Indicator Breakout Strategy:
+Indicators: SMA (21,50,200), StochRSI, VWAP, Bollinger Bands (20,2)
+Buys when:
+SMA21 > SMA50 > SMA200
+StochRSI K<20 and crossing up
+Price > VWAP
+Price touches lower BB
+Bullish engulfing or higher low pattern
+Sells when:
+SMA21 < SMA50 < SMA200
+StochRSI K>80 and crossing down
+Price < VWAP
+Price touches upper BB
+Bearish engulfing or lower high pattern
+Exits when:
+StochRSI reaches overbought/oversold
+Trend reversal occurs
+Profit target or stop loss hit

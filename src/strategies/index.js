@@ -15,9 +15,12 @@ const { MultiIndicatorBreakoutStrategy } = require("./MultiIndicatorBreakoutStra
 const { FlagPatternStrategy } = require("./FlagPatternStrategy");
 const { TrianglePatternStrategy } = require("./TrianglePatternStrategy");
 const { CandlestickPatternTradingStrategy } = require("./CandlestickPatternTradingStrategy");
+const { RangeTradingStrategy } = require("./RangeTradingStrategy");
+const { MovingAverageScalpingStrategy } = require("./MovingAverageScalpingStrategy");
+const { StochasticMomentumStrategy } = require("./StochasticMomentumStrategy");
 
 const strategies = {
-  1: new TripleEmaTrendStrategy(), //EMA Momentum Scalping Strategy
+  1: new TripleEmaTrendStrategy(),  //Strong Trend, High Volatility
   2: new BasicMaBreakoutStrategy(), //Basic Moving Average Breakout Strategy
   3: new EmaRsiMacdCombinedStrategy(),//standard trend-following setup
   4: new MultiSmaWilliamsFractalStrategy(), //Fractal Breakout Strategy
@@ -25,14 +28,17 @@ const strategies = {
   6: new AdvancedMultiIndicatorBreakoutStrategy(),//Precision Trend Scalping
   7: new fastEmaTrendReversalStrategy(),//Quick-Pip Trend Scalper
   8: new macdBollingerBreakoutStrategy(), //Bollinger Bands & MACD Breakout Scalper
-  9:new BollingerStochBreakoutStrategy(), //Bollinger Bands & Stochastic Breakout Scalper
+  9: new BollingerStochBreakoutStrategy(), //Bollinger Bands & Stochastic Breakout Scalper
   10: new RsiStochasticSmaConfluenceStrategy(), //Momentum Reversal Scalper
-  11:new EmaRsiMacdStrategy(), //ignore for short term
+  11: new EmaRsiMacdStrategy(), //ignore for short term
   12: new RSIDivergenceStrategy(),
   13: new MultiIndicatorBreakoutStrategy(),
-  14:new FlagPatternStrategy(),
-  15:new TrianglePatternStrategy(),
-  16: new CandlestickPatternTradingStrategy()
+  14: new MovingAverageScalpingStrategy(),
+  15: new RangeTradingStrategy(),
+  16: new StochasticMomentumStrategy(),
+  17: new FlagPatternStrategy(),
+  18: new TrianglePatternStrategy(),
+  19: new CandlestickPatternTradingStrategy()
 };
 
 async function initializeStrategies(marketData) {

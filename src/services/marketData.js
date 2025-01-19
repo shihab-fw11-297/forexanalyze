@@ -11,22 +11,22 @@ async function fetchMarketData(timeframe, days = 10) {
   // Assuming trading hours and timeframe intervals
   switch(timeframe) {
     case '1': // 1 minute
-      startDate = moment().subtract(3, 'days').format('YYYY-MM-DD'); // Around 1440 minutes per day
+      startDate = moment().subtract(1,'days').format('YYYY-MM-DD'); // 3
       break;
     case '5': // 5 minutes
-      startDate = moment().subtract(5, 'days').format('YYYY-MM-DD'); // Around 288 5-min intervals per day
+      startDate = moment().subtract(2,'days').format('YYYY-MM-DD'); // 5
       break;
     case '15': // 15 minutes
-      startDate = moment().subtract(8, 'days').format('YYYY-MM-DD'); // Around 96 15-min intervals per day
+      startDate = moment().subtract(3,'days').format('YYYY-MM-DD'); //8
       break;
     case '30': // 30 minutes
-      startDate = moment().subtract(15, 'days').format('YYYY-MM-DD'); // Around 48 30-min intervals per day
+      startDate = moment().subtract(4, 'days').format('YYYY-MM-DD'); // 15
       break;
     case '60': // 1 hour
-      startDate = moment().subtract(30, 'days').format('YYYY-MM-DD'); // Around 24 1-hour intervals per day
+      startDate = moment().subtract(5, 'days').format('YYYY-MM-DD'); // 30
       break;
     default:
-      startDate = moment().subtract(5, 'days').format('YYYY-MM-DD');
+      startDate = moment().subtract(5, 'days').format('YYYY-MM-DD');//5
   }
 
   // console.log("Fetching data with timeframe:", timeframe, "from:", startDate, "to:", endDate);
